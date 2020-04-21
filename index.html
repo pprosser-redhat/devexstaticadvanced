@@ -4854,7 +4854,7 @@ from('timer:clock?period=3s')
             </div>
           </div>
           <div class="paragraph">
-            <p>Show some patience now, keep lookng at the topology view, we are waiting (and hoping!) that the
+            <p>Show some patience now, keep looking at the topology view, we are waiting (and hoping!) that the
               integrations scale down to zero.</p>
           </div>
           <div class="paragraph">
@@ -4970,7 +4970,7 @@ oc delete inmemorychannel words</code></pre>
                     These are Kafka, KafkaBridge, KafkaConnect, KafkaConnectS2I, KafkaConnector, KafkaMirrorMaker,
                     KafkaMirrorMaker2, KafkaTopic, and KafkaUser. As you an see, the AMQ Streams operater has a rich set
                     of functionality. All of the configuration work can be performed throught the operator without
-                    detailed know of Kafka Installations. You will see in the next step how easy it is to create an
+                    detailed knowledge of Kafka Installations. You will see in the next step how easy it is to create an
                     Kafka cluster including the Kafka Brokers, and Zookeeper clusters with one simple YAML file.
                   </td>
                 </tr>
@@ -5321,7 +5321,7 @@ knative-messaging-kafka.sandbox30.messages   1            1</code></pre>
               <p>Lets make sure that a topic has been created in Kafka for us.</p>
             </div>
             <div class="paragraph">
-              <p>If you recall, the AMQ streams operator has a number of different CRD&#8217;s, therefore the creeation
+              <p>If you recall, the AMQ streams operator has a number of different CRD&#8217;s, therefore the creation
                 of the Knative Channel, should have created a KafkaTopic CRD. Lets check to make sure that&#8217;s the
                 case.</p>
             </div>
@@ -5536,7 +5536,7 @@ words      True             http://words-kn-channel.sandbox30.svc.cluster.local 
             </div>
             <div class="listingblock">
               <div class="content">
-                <pre class="highlight"><code>/.unmarshal().base64()</code></pre>
+                <pre class="highlight"><code>.unmarshal().base64()</code></pre>
               </div>
             </div>
             <div class="paragraph">
@@ -5565,7 +5565,7 @@ words      True             http://words-kn-channel.sandbox30.svc.cluster.local 
             </div>
             <div class="paragraph">
               <p>You will notice that the Camel Base64 dependency has been added, this enables Camel K to download the
-                dependancy and package it into the run</p>
+                dependancy and package it into the runtime</p>
             </div>
             <div class="paragraph">
               <p>Check the pods log again, you should be able to read the text again</p>
@@ -5594,7 +5594,7 @@ words      True             http://words-kn-channel.sandbox30.svc.cluster.local 
               <p>There you go, all the messaging sent using Knative eventing channels available in a Kafka topic. This
                 means that all the events flying around the event driven network can also be made available to many
                 other tools supported by Kafka. This could be big data systems, AI systems, mirroring events to
-                different Kafka Clusters and many more thinks. Of course, the biggest benefit is that the events are now
+                different Kafka Clusters and many more things. Of course, the biggest benefit is that the events are now
                 persisted, partitioned for scale, and replicated using classic Kafka functionality.</p>
             </div>
             <div class="paragraph">
